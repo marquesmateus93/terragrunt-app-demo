@@ -1,0 +1,2 @@
+dev/us-east-1/bastion/key_files/** filter=git-crypt diff=git-crypt
+dev/us-east-1/key_pair/key_files/** filter=git-crypt diff=git-crypt
