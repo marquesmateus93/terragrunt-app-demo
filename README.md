@@ -6,7 +6,7 @@ This project deploys a complete single app structure with load balancer, autosca
 
 ## How To Deploy:
 
-This module should be consumed by [Terragrunt App Demo](https://github.com/Dev-Marques-Ops-Live-Infrastructure/terragrunt-app-demo) Project.
+This project depends on [Terragrunt VPC](https://github.com/Dev-Marques-Ops-Live-Infrastructure/terragrunt-vpc) deployment.
 
 ## Security:
 
