@@ -25,5 +25,5 @@ inputs = {
 
   prefix_name       = dependency.tags.outputs.prefix_name
 
-  security_group_id = dependency.security_groups.outputs.security_group_id
+  security_group_id = dependency.security_groups.outputs.load_balancer_security_group_id
 }
