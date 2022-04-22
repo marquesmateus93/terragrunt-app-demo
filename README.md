@@ -8,6 +8,11 @@ This project deploys a complete single app structure with load balancer, autosca
 
 This project depends on [Terragrunt VPC](https://github.com/Dev-Marques-Ops-Live-Infrastructure/terragrunt-vpc) deployment.
 
+The application should be deployed in followed order:
+```
+tags > security_groups > rds > key_pair > launch_configuration > target_group > autoscaling_group > load_balancer > domain > lb_listener > lb_listener_rule > bastion
+```
+
 ## Security
 
 - **Bastion Host:** Any user can access it since their private key is associated with the instance.
